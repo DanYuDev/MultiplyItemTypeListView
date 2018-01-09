@@ -9,6 +9,7 @@ public class ListItem {
         public static final int TEXT=0;
         public static final int BUTTON=1;
         public static final int EDIT=2;
+        public static final int TYPE_COUNT=3;
     }
 
     public ListItem(String name,int type){

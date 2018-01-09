@@ -117,6 +117,6 @@ public class ListAdapter extends ArrayAdapter {
 
     @Override
     public int getViewTypeCount(){
-        return  mList.size();
+        return  ListItem.ItemType.TYPE_COUNT;
     }
 }
